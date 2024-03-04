@@ -1,0 +1,41 @@
+.navbar {
+    background-color: yellow;
+}
+
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 50px;
+}
+
+.nav-list li {
+    float: right;
+}
+
+.nav-list li a {
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+
+.nav-list li a:hover {
+    background-color: blue;
+}
+
+.carousel {
+    background-color: #f1f3ff;
+    width: 832px;
+    height: 270px;
+    /* margin: auto; */
+}
+
+.carousel-control-prev-icon {
+    background-image: url("./assets/images/Vector.svg");
+}
+
+.carousel-control-next-icon {
+    background-image: url("./assets/images/Vector-kanan.svg");
+}
